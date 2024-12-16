@@ -131,7 +131,6 @@ about.html
         rel="stylesheet">
 
 </head>
-
 <body>
     <nav>
         <div class="logo">
@@ -274,12 +273,6 @@ admin.html
             </div>
         </div>
     </div>
-
-
-
-
-
-
     <footer class="admf">
         Designed with <i class="fa-regular fa-heart"></i> by Venkatachalam S &copy;
     </footer>
@@ -414,15 +407,6 @@ menu.html
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
 
     <footer>
         Designed with <i class="fa-regular fa-heart"></i> by Venkatachalam S &copy;
@@ -562,15 +546,12 @@ marquee {
     word-spacing: 12px;
 }
 
-
 nav {
     display: flex;
     padding: 2%;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-
-
 }
 
 nav ul li {
@@ -587,11 +568,9 @@ nav ul li {
 
 nav ul li a {
     color: rgb(245, 162, 37);
-
     font-size: 28px;
     font-family: "Nunito", sans-serif;
     text-decoration: none;
-
     font-weight: 500;
     font-size: 20px;
     transition: 0.5s;
@@ -608,7 +587,6 @@ nav ul li a::after {
 
 nav ul :hover {
     transform: scale(1.3);
-
 }
 
 nav ul li a:hover::after {
@@ -617,8 +595,6 @@ nav ul li a:hover::after {
 
 nav ul li a:hover {
     color: black;
-
-
 }
 
 nav .logo :hover {
@@ -627,7 +603,6 @@ nav .logo :hover {
 
 nav h1 {
     font-size: 32px;
-
     color: rgb(250, 192, 49);
     margin: 0 5px;
     cursor: pointer;
@@ -719,7 +694,6 @@ footer i {
 footer i:hover {
     color: yellow;
     transform: scale(1.2);
-
 }
 
 /*about*/
@@ -728,13 +702,11 @@ footer i:hover {
     align-items: center;
     justify-content: space-between;
     position: relative;
-
 }
 
 .h1 h1 {
     font-size: 60px;
     position: relative;
-
     left: 7%;
 }
 
@@ -773,7 +745,6 @@ footer i:hover {
 
 .homeh {
     font-size: 32px;
-
     color: rgb(250, 192, 49);
     margin: 0 5px;
     cursor: pointer;
@@ -788,9 +759,7 @@ footer i:hover {
 .abtfo {
     margin-top: 5%;
 }
-
 /* Admin*/
-
 .team {
     width: 100%;
     padding: 70px 0;
@@ -815,13 +784,9 @@ h3 {
     margin-left: 15px;
     font-family: mv boli;
 }
-
-
-
 .admin {
     display: flex;
 }
-
 .admins {
     width: 300px;
     display: flex;
@@ -832,7 +797,6 @@ h3 {
     margin: 0 8px;
     justify-content: center;
     text-align: center;
-
 }
 
 .admins .admininfo .imgad {
@@ -844,17 +808,14 @@ h3 {
 .admininfo .imgad :hover {
     transform: scale(1.4);
 }
-
 .admininfo p {
     font-size: 18px;
 }
-
 .admins img {
     width: 200px;
     border-radius: 100%;
     margin-top: 20%;
 }
-
 .admins h2 {
     font-size: 20px;
     margin-top: 50%;
@@ -863,13 +824,10 @@ h3 {
 .admf{
     margin-top: -17%;
 }
-
-
 /*-----------------*/
 .chefad {
     display: flex;
 }
-
 .h1adm {
     margin-left: -75%;
     width: 100%;
@@ -879,11 +837,9 @@ h3 {
     margin-left: 15px;
     margin-top: 1%;
 }
-
 .h1adm span {
     color: #fac031;
-    font-family: mv boli;
-    
+    font-family: mv boli;  
 }
 
 .chef {
@@ -901,8 +857,7 @@ h3 {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
     border-radius: 10%;
     padding: 10px 12px;
-    margin-left: 30px;
-    
+    margin-left: 30px; 
 }
 
 .chefs img {
@@ -911,14 +866,12 @@ h3 {
     justify-content: center;
     width: 150px;
     border-radius: 100%;
-    margin-left: 20%;
-    
+    margin-left: 20%; 
 }
 
 .chef .chefs:hover img {
     opacity: 0.4;
 }
-
 .chefs h1 {
     position: absolute;
     font-size: 28px;
@@ -959,7 +912,6 @@ span {
     transition: 0.5s;
     margin-top: -3%;
 }
-
 .bimg :hover {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
@@ -967,32 +919,26 @@ span {
 .book h1 {
     font-size: 48px;
 }
-
 .order {
     line-height: 2;
     justify-content: right;
     margin-top: 8%;
     margin-left: 7%;
 }
-
 form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px 30px;
 }
-
 .inp {
     font-size: 32px;
-
 }
-
 input, select {
     font-size: 32px;
     width: 300px;
     background-color: rgba(0, 0, 0, 0.2);
     color: black;
 }
-
 .submit {
     color: white;
     padding-left: 2%;
@@ -1004,10 +950,10 @@ input, select {
     margin-left: 50%;
     margin-top: 2%;
 }
-
 .conf {
     margin-top: 2%;
 }
+
 /*Menu*/
 .menubar{
     width: 90%;
@@ -1040,7 +986,6 @@ input, select {
     border-bottom-left-radius: 25%;
     margin-left: 4%;
 }
-
 .menubar h2{
     text-align: center;
     font-size: 18px;
